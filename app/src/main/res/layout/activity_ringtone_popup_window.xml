@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ringtone_popup_window"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context="com.example.tony.myclock.RingtonePopupWindow" >
+
+    <LinearLayout
+        android:id="@+id/popup_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="#797979">
+
+        <ListView
+            android:id="@+id/ring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:id="@+id/ring_confirm_bt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Save"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:background="#669900"
+            android:layout_alignBottom="@+id/ring"
+            android:textAllCaps="false"
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

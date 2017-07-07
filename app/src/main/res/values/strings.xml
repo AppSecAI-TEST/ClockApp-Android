@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyClock</string>
+    <string name="action_settings">Settings</string>
+    <string name="set_an_alarm">Set an Alarm</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="none">None</string>
+</resources>

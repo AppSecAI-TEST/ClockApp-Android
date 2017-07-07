@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout" >
+
+
+    <com.example.tony.myclock.MySurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:id="@+id/mySurfaceView"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_alarm_add_white_48dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/alarm_text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom= "true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:src="@drawable/alarm_icon"
+            android:layout_marginBottom="28dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:textSize="18dp"
+            android:text="No alarm"
+            android:id="@+id/alarm_text"
+            android:gravity="center"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

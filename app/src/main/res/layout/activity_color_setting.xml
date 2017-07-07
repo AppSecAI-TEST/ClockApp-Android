@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_color_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tony.myclock.ColorSettingActivity">
+
+    <TextView
+        android:id="@+id/update_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Clock Color"
+        android:textSize="30dp"
+        android:textColor="#669900"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:typeface="normal"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif-condensed" />
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/basic_color_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="30dp">
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/basic_color_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/basic_color"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/basic_color_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic Color"
+                android:textSize="18dp"
+                android:textColor="#669900"
+                android:typeface="normal"
+                android:textStyle="normal|bold"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rainbow_color_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/rainbow_color_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rainbow_color"
+                android:layout_marginBottom="10dp"
+                />
+
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/rainbow_color_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rainbow Color"
+                android:typeface="normal"
+                android:textStyle="normal|bold"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#669900"
+                android:textSize="18dp"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/light_color_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="30dp">
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/light_color_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/light_color"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/light_color_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Light Color"
+                android:textSize="18dp"
+                android:textColor="#669900"
+                android:typeface="normal"
+                android:textStyle="normal|bold"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/three_color_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/three_color_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/three_colors"
+                android:layout_marginBottom="10dp"
+                />
+
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/three_color_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Three Colors"
+                android:typeface="normal"
+                android:textStyle="normal|bold"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#669900"
+                android:textSize="18dp"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

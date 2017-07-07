@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#038e7d</item>
+        <item name="colorPrimaryDark">#038e7d</item>
+        <item name="colorAccent">#feae0d</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="MyDialogStyleBottom" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+        ;!-- set frame -->
+
+        <item name="android:windowIsFloating">true</item>
+        ;!-- float on the alarm activity -->
+
+        <item name="android:windowIsTranslucent">true</item>
+        ;!-- set translucent -->
+
+        <item name="android:windowNoTitle">true</item>
+        ;!-- set no title -->
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+        ;!-- set transparent background -->
+
+        <item name="android:backgroundDimEnabled">true</item>
+        ;!-- set dim background -->
+    </style>
+
+</resources>
